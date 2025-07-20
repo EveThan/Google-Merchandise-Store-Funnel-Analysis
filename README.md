@@ -1,5 +1,6 @@
 # Google Merchandise Store — E-commerce Data Conversion Funnel Dashboard
 
+<p align="center"> <img height="600" alt="image" src="https://github.com/user-attachments/assets/b29f4630-9ac6-4899-8129-be01b111a49e" /> </p>
 
 
 ## 1. Project Goal
@@ -24,6 +25,8 @@ Details behind the selection of these events as conversion funnel stages can be 
 This analysis uses a user-based conversion funnel, which means that each user is counted only once. This differs from session-based funnels where a user can be counted multiple times across different sessions.
 
 Additionally, a closed funnel approach is implemented, which means that only users who proceed through the funnel stages in the order above (session_start → view_item → add_to_cart → ...) are included, although they may drop off at any step. Users who skip stages or complete them out of order are not included in the conversion funnel.
+
+In the interactive dashboard, the conversion funnel is also anchored on each user's session_start_date. This means that users are included in the conversion funnel if their session_start_date falls within the selected date range. All subsequent funnel events (e.g., view_item, add_to_cart, purchase) are attributed to that same session_start_date and are counted in the conversion funnel even if they occurred outside the selected date range. This ensures a more complete view of user progression through the funnel after their first visit which happened within the selected date range.
 
 ## 5. Conversion Funnel Insights Summary
 ### 5.1. Overall Conversion Funnel ([view analysis summary on Google Colab](https://colab.research.google.com/drive/1iEq6xPdefjna970kkfhkkkT9nhhARYfN#scrollTo=6haBQ7AgKX8i))

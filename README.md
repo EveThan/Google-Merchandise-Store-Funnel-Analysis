@@ -13,7 +13,7 @@ This dashboard helps us pinpoint where users drop off most and identify areas fo
 ## 2. Data
 The dataset used is the [ga4_obfuscated_sample_ecommerce dataset](https://console.cloud.google.com/bigquery?p=bigquery-public-data&d=ga4_obfuscated_sample_ecommerce&t=events_20210131&page=table) available through BigQuery Public Datasets. It contains a sample of BigQuery event export data for three months from 2020-11-01 to 2021-01-31.
 
-## 3. Link to Dashboard and Google Colab
+## 3. Links to Dashboard and Google Colab
 The interactive dashboard can be accessed on [Looker Studio](https://lookerstudio.google.com/reporting/4eb3dffd-6e26-4f4d-8046-82e60102948e), while all SQL used for data processing and complete analysis notes can be found on [Google Colab](https://colab.research.google.com/drive/1iEq6xPdefjna970kkfhkkkT9nhhARYfN#scrollTo=laItJf6f5QAS).
 
 ## 4. Conversion Funnel Setup
